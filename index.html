@@ -1,22 +1,115 @@
+<!--' #region head'-->
 <!doctype html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="src/styles/main.scss"
-    />
+    <title>bose</title>
     <script
       src="src/scripts/main.js"
       defer
     ></script>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" 
+    rel="stylesheet">
   </head>
-  <body>
-    <h1>Landing Page</h1>
+  <!-- #endregion -->
+  <body class="page__body"> 
+     <header class="header">
+       <div class="top-bar">
+         <div class="top-bar__icons">
+          <a href="#" class="icon icon--phone"></a>
+          <a href="#menu" class="icon icon--menu"></a>
+       </div>
+
+        <a href="#" class="top-bar__logo">
+          <img src="src/styles/image/logo.png" alt="Bose logo">
+        </a>
+       </div>
+
+       <div class="header__bottom">
+        <h1 class="header__title">
+           Bring joy back 
+           <br>
+           to the everyday.
+          </h1>
+       </div>
+     </header>
+
+      <aside class="menu page__menu" id="menu"> 
+         <div class="top-bar menu__top">
+           <a href="#" class="icon icon--close"></a>
+           <a href="#" classs="top-bar__logo">
+           <img src="src/styles/image/logo.png" alt="Bose logo">
+          </a>
+        </div>
+         
+         <div class="menu__content">
+          <nav class="nav menu__nav">
+           <ul class="nav__list">
+            <li class="nav__item">
+              
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#Products">Products</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#Products">Products</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#Login">Login</a>
+            </li>
+
+            <li class="nav__item">
+                <a class="nav__link" href="#Cart">Cart</a>
+            </li>
+
+             <li class="nav__item">
+                <a class="nav__link" href="#Contacts">Contacts</a>
+            </li>
+           </ul>
+         </nav>
+        
+         <a href="tel:+1 234 5555-55-55class" class="menu__phone-number">
+          +1 234 5555-55-55
+         </a>
+
+         <a href="tel:+1 234 5555-55-55class" class="menu__call-to-order">
+          Call to order
+        </a>
+       </div>
+      </aside>
+
+     <main class="main">
+
+     <section class="Products" id="Products">
+      <h2>Products</h2>
+     </section>
+
+     <section class="Store" id="Store">
+      <h2>Beowse Botheng products by category</h2>
+     </section>
+
+     <section class="Login" id="Login">
+      <h2>About us</h2>
+     </section>
+  
+     <section class="Cart" id="Cart">
+      <h2>Contact us</h2>
+     </section>
+
+     <section class="Contacts" id="Contacts">
+      <h2>Contacts</h2>
+     </section>
+
+     </main>
+    <footer class="footer"></footer>
   </body>
 </html>
