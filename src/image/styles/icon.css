@@ -1,0 +1,12 @@
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url("../icon-phone-call.png");
+}
+
+.icon--menu {
+  background-image: url('../icon-burger-menu-hover.png');
+}
