@@ -15,7 +15,16 @@
       "default",
       {
         "ignore": [
-          "flex-direction"
+          "flex-direction",
+          "scroll-behavior",
+          "scroll-behavior: smooth",
+          "padding-block",
+          "width: fit-content",
+          "gap",
+          "pointer-events",
+          "justify-content",
+          "align-items",
+          "background-position: center"
         ]
       }
     ]
