@@ -4,7 +4,7 @@
 
     row-gap: 40px;
 
-    @include onTablet {
+    @include on-tablet {
       row-gap: 64px;
     }
   }
@@ -12,7 +12,7 @@
 
 .category {
   &__photos {
-    @include pageGrid;
+    @include page-grid;
 
     margin-bottom: 16px;
   }
@@ -29,13 +29,13 @@
     &--small {
       height: 130px;
 
-      @include onTablet {
+      @include on-tablet {
         height: 184px;
 
         grid-column: span 2;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         height: 324px;
 
         grid-column: span 4;
@@ -45,13 +45,13 @@
     &--large {
       height: 130px;
 
-      @include onTablet {
+      @include on-tablet {
         height: 184px;
 
         grid-column: span 4;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         height: 324px;
 
         grid-column: span 8;
