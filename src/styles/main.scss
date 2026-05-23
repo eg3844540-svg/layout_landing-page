@@ -1,6 +1,37 @@
-@import 'header';
-@import 'icon';
-@import 'top-bar';
-@import 'page';
-@import 'menu';
-@import 'hbp';
+@import './utils/variables';
+@import './utils/mixins';
+
+@import './blocks/page';
+@import './blocks/header';
+@import './blocks/top-bar';
+@import './blocks/icon';
+@import './blocks/menu';
+@import './blocks/nav';
+@import './blocks/recommended';
+@import './blocks/categories';
+@import './blocks/about';
+@import './blocks/contacts';
+@import './blocks/forms';
+@import './blocks/buttons';
+@import './blocks/section-title';
+
+
+.main {
+  background-color: #fff;
+
+  &__content {
+    display: grid;
+
+    row-gap: 96px;
+
+    padding-block: 96px;
+
+    @include contentPaddingInline;
+
+    @include onTablet {
+      row-gap: 120px;
+
+      padding-block: 120px;
+    }
+  }
+}
