@@ -1,12 +1,12 @@
 .about {
-  @include pageGrid;
+  @include page-grid;
 
   row-gap: 32px;
 
   &__title {
     grid-column: 1 / -1;
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: span 5;
     }
   }
@@ -14,7 +14,7 @@
   &__content {
     grid-column: 1 / -1;
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 6 / -1;
     }
   }
@@ -42,11 +42,11 @@
 
     object-fit: cover;
 
-    @include onTablet {
+    @include on-tablet  {
       height: 400px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       height: 460px;
     }
   }

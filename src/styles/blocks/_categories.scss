@@ -102,11 +102,11 @@
 
   transition: all 0.3s;
 
-  @include onTablet {
+  @include on-tablet {
     width: 600px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     width: 324px;
   }
 

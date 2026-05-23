@@ -5,7 +5,7 @@
 
   padding-top: 24px;
 
-  @include onTablet {
+  @include on-tablet {
     padding-top: 32px;
   }
 
@@ -18,7 +18,7 @@
 
     @include hover(transform, scale(1.05));
 
-    @include onTablet {
+    @include on-tablet {
       height: 24px;
     }
   }

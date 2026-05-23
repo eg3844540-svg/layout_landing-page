@@ -21,7 +21,7 @@
   &__bottom {
     padding-bottom: 40px;
 
-    @include onTablet {
+    @include on-tablet {
       padding-bottom: 64px;
     }
   }
@@ -34,11 +34,11 @@
 
     font-size: 36px;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 64px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       font-size: 80px;
     }
   }

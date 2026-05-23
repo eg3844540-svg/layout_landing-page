@@ -15,7 +15,7 @@
   overflow: auto;
 
   &__content {
-    @include contentPaddingInline;
+    @include content-padding-inline;
 
     height: 100%;
 
