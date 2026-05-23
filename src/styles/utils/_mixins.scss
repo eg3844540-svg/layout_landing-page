@@ -10,7 +10,7 @@
   }
 }
 
-@mixin contentPaddingInline {
+@mixin content-padding-inline {
   padding-inline: 20px;
 
   @include on-tablet {
