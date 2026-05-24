@@ -1,4 +1,13 @@
 .contacts {
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #292929 !important;
+
+    text-decoration: none;
+  }
+
   &__wrapper {
     @include page-grid;
   }
@@ -29,6 +38,7 @@
     color: #9393a3;
 
     font-size: 14px;
+
     line-height: 140%;
   }
 
@@ -36,6 +46,7 @@
     color: #292929;
 
     font-size: 16px;
+
     line-height: 140%;
 
     text-decoration: none;
