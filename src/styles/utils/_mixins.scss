@@ -18,17 +18,11 @@
   }
 
   @include on-desktop {
-    max-width: 1260px;
+    max-width: 1020px;
+
     margin-inline: auto;
+
     padding-inline: 120px;
-  }
-}
-
-@mixin hover($property, $toValue) {
-  transition: #{$property} $effectDuration;
-
-  &:hover {
-    #{$property}: $toValue;
   }
 }
 
@@ -36,17 +30,29 @@
   --columns: 2;
 
   display: grid;
+
   column-gap: 20px;
 
   grid-template-columns: repeat(var(--columns), 1fr);
 
   @include on-tablet {
     --columns: 6;
+
     column-gap: 24px;
   }
 
   @include on-desktop {
     --columns: 12;
+
     column-gap: 24px;
   }
 }
+
+@mixin hover($property, $to-value) {
+  transition: #{$property} 0.3s;
+
+  &:hover {
+    #{$property}: $to-value;
+  }
+}
+

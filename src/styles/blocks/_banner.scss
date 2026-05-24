@@ -1,14 +1,14 @@
 .banner {
-  @include page-grid;
+  @include pageGrid;
 
     &__title {
       grid-column: 1 / -1;
 
-       @include on-tablet {
+       @include onTablet {
         grid-column: 1 / 4
        }
 
-        @include on-desktop {
+        @include onDeskto {
           grid-column: span 5;
         }
     }
@@ -16,11 +16,11 @@
     &__content {
        grid-column: 1 / -1;
 
-        @include on-tablet {
+        @include onTablet {
            grid-column: 4 / 7;
         }
 
-         @include on-desktop {
+         @include onDeskto {
           grid-column: span 5;
         }
     }
